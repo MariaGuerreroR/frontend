@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://backend-1-op8u.onrender.com';
 
 // Get auth token from localStorage
 const getAuthToken = () => {
